@@ -1,0 +1,23 @@
+
+/*h2 {
+    font: bold 114% Arial,sans-serif;
+    color: #006699 }
+*/
+    body{font-family:'Inter', sans-serif;font-size: 16px;}
+
+    a{text-decoration: none;} /* senza sottolineatura*/
+    h2,h3,h4,h5,p{padding-Bottom: 30px; color:#000;} /**/
+    h1{color:#000;}
+    p{color:#666; font-weight:300px; color:#000;line-height:28px;margin:2px;} /*; #666;line-height:28px;*/
+    .big-text{font-size: 70px;font-weight: bold;}
+    .med-text{font-size: 40px;}
+    .normal-text{font-size: 20px;}
+    .small-text{font-size: 14px;}
+
+
+ .mt-1{margin-top:50px;margin-left: 6px;}
+ .mt-2{margin-top: 12px;margin-bottom: 12px;margin-left: 12px;}
+ .mt-3{margin-top: 150px;}
+ .mt-4{margin-bottom: 1px;margin-top: 50px;}
+ .mt-5{margin-top: 1px;}
+ .tw{color: #fff;}

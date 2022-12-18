@@ -1,0 +1,11 @@
+
+    .header{display:flex;width:100%; position:fixed;/*fisso sullo schermo,
+    perciò non si può allineare con il margin-auto, perciò agisco sul left:50% e poi lo traslo*/
+    top:0;left:50%;transform:translateX(-50%);padding: 30px; /*flexbox allinea elementi in un contenitore*/
+    max-width: 1750px;flex-direction:row;height:55px;
+    }
+ .logo{width:70px;height: 70px;z-index:1;flex-direction:row;}
+ .navbar{display:flex; flex-direction:row;width:100%;z-index: 0;}
+.link-navbar{flex-direction:row-reverse;color:green;}/* ciascun elemento occuopa solo la'ampiezza necessaria**/
+.link-navbar a{font-size: 17px;font-weight: bold;color:green;text-emphasis: extrabold;padding:15px;flex-direction:row-reverse;}   /*display:block;
+

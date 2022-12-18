@@ -1,0 +1,56 @@
+.vetrina{
+  background:url("medita2.png") no-repeat center center; /*linear-gradient(0deg, rgba(174,203,209,.1), rgba(174,203,209,0.6) 70.71%)
+  */ background-size: cover; height:100vh;display:flex;flex-direction: column;
+  width:100%; align-items: left;     /*vh:vertical height*/
+  color:#000000;
+  background-color:#FFFFFF;
+  margin-right: 20%;
+  margin-top: 0px;
+  /*margin-left: 25%;*/
+  margin-bottom: 0px;
+padding-left: 0px;
+margin-left:0px;}
+
+.intro-text{text-transform:uppercase;font-size: 20px;font-weight: 900;color:#fff;display:block;padding-top:300px;padding-bottom:0px;margin-left:270px;}/* 900 è un'extrabold  font-size: 80%;*/
+
+.titolo{font-size: 70px;font-weight: bold;display:block;color:#fff;top:0px;margin-left:270px;}
+
+.articolo{
+ display:flex; flex-direction:row; align-items: left;  /*  allinea gli elementi in un contenitore*/
+ height: 100vh;
+ width:100%;
+ border-color:red;
+ border-width: 40px;
+ margin:80px;
+ margin-left:0px;
+ /*item=elemento*/
+ }
+.img{width:60%;height:100%;}
+.img img{object-fit: cover;width:100%;height:100%;}
+.contenutoArticolo{width:35%;padding:30px; color:#000;}
+
+.panel-blue{display:flex;align-items: center;flex-direction:row;
+  background:#4bb1e9;padding: 100px 30px;margin-bottom:0px;border-width: 0px;/* */
+}
+.grid{ margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;background:#4bb1e9; margin-bottom: 30px;} /*max-width: 1352px;display: flex; padding:0px;/* 30px;*/margin:0px auto;*/
+.grid-col{width: 100%;color:#fff;flex-wrap: wrap;}
+
+.panel-blue_text{margin-left:200px;display:flex;align-items: left;flex-direction:column;}
+.dot{padding:15px;padding-right:10px;align: center;height: 250px;width: 250px;background:#8C8;border-radius:100%;margin-right: 30px;margin-left: 30px;margin-bottom: 30px;}/*line-height: 180px;text-align: center;width: 250px;display: inline-block;*/
+
+
+.dot img{align: center;height: 245px;width: 245px;border-radius:100%;object-fit: cover;width:100%;height:100%;}/*margin-left: 10px;padding:30px;width: 90%;padding-top:0px;padding-bottom: 0px;padding:5%;margin:0px;*/
+
+.footer {
+height: 200px;
+font: bold 114% Arial,sans-serif;
+text-align: center;
+color: #FFFFFF;
+background-color: #0000FF;
+margin-top:0px;
+padding-top: 0px;
+border-width: 0px;}
